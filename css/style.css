@@ -13,7 +13,9 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #060c21;
+  background: linear-gradient(315deg, #2a1f54, #537520);
+
+
 }
 
 
@@ -23,7 +25,7 @@ body {
   align-items: center;
   flex-direction: column;
   position: relative;
-  background: #18203c;
+  background: linear-gradient(315deg, #04aeb1, #0b411f);
   border: 1px solid #000;
   width: 450px;
   height: 400px;
@@ -54,7 +56,7 @@ body {
   border: none;
   outline: none;
   padding: 5px 5px;
-  background: linear-gradient(315deg, #13e6e9, #02ff5f);
+  background: linear-gradient(315deg, #496565, #0b4d23);
   color: #FFF;
   font-size: 15px;
   border-radius: 10px;
