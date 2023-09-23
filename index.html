@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="pr-BR">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <div class="form-floating mb-3">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    
+    <form class="form">
+      <h2>Login</h2>
+      <div class="inputbox">
+        <label>First Name</label>
+        <input type="text" placeholder="Your name..">
+      </div>
+
+      <div class="inputbox">
+        <label>Last Name</label>
+        <input type="text" placeholder="Your last name..">
+      </div>
+
+      <div class="inputbox">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+      <div class="inputbox">
+        <input type="submit" value="Submit">
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
 </html>
